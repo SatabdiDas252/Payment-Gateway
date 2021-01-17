@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url("https://cdn.aarp.net/content/dam/aarp/money/taxes/2020/12/1140-online-donation-screen.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+        }
+
+        form {
+            margin-top: 400px;
+            margin-left: 650px;
+        }
+
+        header {
+            margin-left: 520px;
+        }
+
+    </style>
+    <title>PayPal Node App</title>
+</head>
+
+<body class="col-xl-8">
+    <div>
+        <header>
+            <button type="button" class="btn btn-danger">Home</button>
+            <a><button type="button" class="btn btn-secondary">About Us</button></a>
+            <button type="button" class="btn btn-warning">Contact</button>
+        </header>
+
+    </div>
+
+    <form action="/pay" method="post">
+        <input type="submit" class="btn btn-primary" value="DONATE">
+    </form>
+</body>
+
+</html>
